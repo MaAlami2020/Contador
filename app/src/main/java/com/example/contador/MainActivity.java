@@ -36,5 +36,6 @@ public class MainActivity extends AppCompatActivity {
     public void mostrarResultado(){
         TextView textoResultado=(TextView)findViewById(R.id.contadorPulsaciones);
         textoResultado.setText("Contador: " + contador);
+
     }
 }
